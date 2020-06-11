@@ -14,3 +14,5 @@ git branch -c "nume branch" : creza un nou branch
 git checkout "nume branch" : schimba pe noul branch
 
 git checkout -b "nume branch" : creaza si schimba automat pe noul branch
+
+So-mmbagpola
