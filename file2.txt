@@ -19,3 +19,6 @@ git stash : mentine informatiile necomise intr-un soi de WIP la care poti reveni
 
 git stash pop : comanda pentru a reveni la WIP cand te intorci pe branch
 git stash list : list stashes
+
+git show: show a single commit
+git diff: show the difference between commits, the working directory
