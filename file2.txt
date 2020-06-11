@@ -10,5 +10,5 @@ mesaj 3;
 
 mesaj 4;
 
-
-git branch: create a git branch;
+git branch -c "nume branch" : creza un nou branch
+git checkout "nume branch" : schimba pe noul branch
