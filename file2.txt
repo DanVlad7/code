@@ -15,4 +15,6 @@ git checkout "nume branch" : schimba pe noul branch
 
 git checkout -b "nume branch" : creaza si schimba automat pe noul branch
 
-So-mmbagpola
+git stash : mentine informatiile necomise intr-un soi de WIP la care poti reveni
+
+git stash pop : comanda pentru a reveni la WIP cand te intorci pe branch
