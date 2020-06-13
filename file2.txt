@@ -32,3 +32,4 @@ git checkout -b "nume branch" : creaza si schimba automat pe noul branch
 git stash : mentine informatiile necomise intr-un soi de WIP la care poti reveni
 
 git stash pop : comanda pentru a reveni la WIP cand te intorci pe branch
+git stash list : list stashes
