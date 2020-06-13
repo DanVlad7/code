@@ -21,3 +21,7 @@ Merging means to bring the changes from a branch to another one.
 and there are no new changes to the current branch since then.
 
 ....
+
+ - An automatic merge happens when the two histories have diverged, 
+ but git is able to reconcile them into one set of changes. This
+ creates a new commit on the current branch.
