@@ -11,3 +11,7 @@ mesaj 3;
 mesaj 4;
 
 git merge : merge changes from different branches
+
+#Merging
+
+Merging means to bring the changes from a branch to another one.
