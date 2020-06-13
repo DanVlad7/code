@@ -47,15 +47,34 @@ git push -u <remote> <branch>: push <branch> to <remote> and set default upstrea
 
 git fetch : fetches changes from the online branch to the local one
 
-git branch -c "nume branch" : creza un nou branch
-git checkout "nume branch" : schimba pe noul branch
+##BRANCH
 
+git branch -c "nume branch" : creza un nou branch
+
+##CHECKOUT
+git checkout "nume branch" : schimba pe noul branch
 git checkout -b "nume branch" : creaza si schimba automat pe noul branch
 
+##STASH
 git stash : mentine informatiile necomise intr-un soi de WIP la care poti reveni
-
 git stash pop : comanda pentru a reveni la WIP cand te intorci pe branch
 git stash list : list stashes
 
+##SHOW-DIFF
 git show: show a single commit
 git diff: show the difference between commits, the working directory
+
+##PULL
+
+git pull - fetches the changes from the remote repository and merge 
+    - the changes to the local repo
+
+
+##What is a remote?
+
+A remote repo is one hosted outside of our local machine. We can add
+remotes with 'git remote add', and set up *tracking branches* to track
+differences between our local and remote repositories.
+
+We push to remotes with 'git push', and fetch from then with 'git fetch'.
+We can also fetch and merge with 'git pull'
