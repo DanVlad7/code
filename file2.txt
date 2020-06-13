@@ -15,6 +15,8 @@ git merge : merge changes from different branches
 
 #Merging
 
+git merge --abort - abort an in progress merge
+
 Merging means to bring the changes from a branch to another one.
 
 - A fast forward merge happens when the target branch was branched from the current one
@@ -23,6 +25,17 @@ and there are no new changes to the current branch since then.
  - An automatic merge happens when the two histories have diverged, 
  but git is able to reconcile them into one set of changes. This
  creates a new commit on the current branch.
+
+ git merge --no-commit --no-ff "branch-ul cu care vreau sa mergeuiesc"
+    - nu commite si nu face fast forward la merge orice ar fi
+
+#LOG
+
+git log branch1..branch2 - log of commits that are in branch2 and not in
+    -branch1
+
+git log branch1...branch2 - log of commits in either branch but not in  
+    -both
 
 git branch -c "nume branch" : creza un nou branch
 git checkout "nume branch" : schimba pe noul branch
