@@ -36,6 +36,12 @@ git log branch1..branch2 - log of commits that are in branch2 and not in
 
 git log branch1...branch2 - log of commits in either branch but not in  
     -both
+    
+##PUSH content from on prem to github
+
+git add <remote> <url> - add a new <remote> at <url>
+git remote -v - list remote repositories
+git push -u <remote> <branch>: push <branch> to <remote> and set default upstream <branch>
 
 git branch -c "nume branch" : creza un nou branch
 git checkout "nume branch" : schimba pe noul branch
