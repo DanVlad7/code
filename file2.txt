@@ -43,6 +43,10 @@ git add <remote> <url> - add a new <remote> at <url>
 git remote -v - list remote repositories
 git push -u <remote> <branch>: push <branch> to <remote> and set default upstream <branch>
 
+##FETCH
+
+git fetch : fetches changes from the online branch to the local one
+
 git branch -c "nume branch" : creza un nou branch
 git checkout "nume branch" : schimba pe noul branch
 
